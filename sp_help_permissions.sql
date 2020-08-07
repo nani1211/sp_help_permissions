@@ -1,4 +1,7 @@
 USE master;
+
+
+
 GO
 IF (OBJECT_ID('dbo.sp_help_permissions') IS NULL) EXEC('CREATE PROCEDURE dbo.sp_help_permissions AS --');
 GO
